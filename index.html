@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Club Projeto Site Carros com animações.</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo fp">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Carros</li>
+                <li>Fale Conosco</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="list">
+
+            <div class="item active">
+                <div class="car-img">
+                    <img src="img/1.png" alt="imagem carro 1" class="img">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        Modelo 2024
+                    </p>
+                    <h2>
+                        911 Turbo
+                    </h2>
+                    <p class="description">
+                        A Porsche, fundada por Ferdinand Porsche em 1931, é sinônimo de carros de luxo e alta performance. O primeiro modelo, o Porsche 356, foi lançado em 1948. Conhecida pelo design elegante e desempenho, fabrica carros com engenharia de ponta. Modelos icônicos incluem o 911, 918 Spyder, Cayman, Boxster e Panamera. Com inúmeros 
+                        campeonatos em corridas de resistência, a Porsche é um ícone de engenharia automotiva e luxo.
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="img/2.png" alt="imagem carro 2" class="img">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        Modelo 2024 Conversível
+                    </p>
+                    <h2>
+                        Ferrari
+                    </h2>
+                    <p class="description">
+                        A Ferrari, fundada por Enzo Ferrari em 1939, é sinônimo de carros de luxo e alta performance. O primeiro modelo de rua, o 125 S, foi lançado em 1947.
+                        Conhecida por sua estética e velocidade, fabrica carros com materiais de alta qualidade. Modelos icônicos incluem o 250 GTO, Testarossa, F40, Enzo e LaFerrari.
+                        Com inúmeros campeonatos na Fórmula 1, a Ferrari é um ícone de engenharia automotiva, desempenho e luxo.
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="car-img">
+                    <img src="img/3.png" alt="imagem carro 3" class="img">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        Modelo 2024
+                    </p>
+                    <h2>
+                        Lamborghini
+                    </h2>
+                    <p class="description">
+                    A Lamborghini, fundada por Ferruccio Lamborghini em 1963, é sinônimo de luxo e alta performance. 
+                    O primeiro modelo, o 350 GT, foi lançado em 1964. Conhecida pelo design agressivo e velocidade, fabrica carros com materiais de alta qualidade. Modelos icônicos incluem o Miura, Countach, Diablo, Murciélago e Aventador. 
+                    Com um histórico impressionante, a Lamborghini é um ícone de engenharia automotiva e luxo.
+                    </p>
+                    <button class="information">
+                        Saiba Mais
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"><img src="img/arrow.png" alt="Img Arrow right"></button>
+            <button id="next"><img src="img/arrow.png" alt="Img Arrow left"></button>
+        </div>
+
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+</body>
+<script src="js/scripts.js"></script>
+
+</html>
